@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Top Utility Bar</title>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="header1_style.css">
+</head>
+<body>
+
+  <header class="top-utility-bar">
+    <div class="utility-container">
+      <!-- Left Navigation Links -->
+      <nav class="utility-links-left" aria-label="Quick Links">
+        <a href="#results">Results</a>
+        <span class="divider">|</span>
+        <a href="#hs-mentorship">HS Mentorship</a>
+        <span class="divider">|</span>
+        <a href="#cu-green-audit">CU Green Audit</a>
+        <span class="divider">|</span>
+        <a href="#irins">IRINS</a>
+        <span class="divider">|</span>
+        <a href="#naac">NAAC</a>
+        <span class="divider">|</span>
+        <a href="#nirf">NIRF</a>
+        <span class="divider">|</span>
+        <a href="#rdv">RDV</a>
+        <span class="divider">|</span>
+        <a href="#swayam">SWAYAM</a>
+      </nav>
+
+      <!-- Right Utility & Accessibility Controls -->
+      <div class="utility-controls-right">
+        <a href="#assamese" class="utility-item lang-toggle" lang="as">
+          <i class="fa-solid fa-language"></i> অসমীয়া
+        </a>
+
+        <div class="font-resizer" role="group" aria-label="Font size controls">
+          <button type="button" id="font-decrease" title="Decrease font size">A-</button>
+          <button type="button" id="font-reset" title="Reset font size">A</button>
+          <button type="button" id="font-increase" title="Increase font size">A+</button>
+        </div>
+
+        <a href="#screen-reader" class="utility-item">Screen Reader</a>
+        <a href="#webmail" class="utility-item">Webmail</a>
+        <a href="#contact" class="utility-item">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sample Content to Preview Font Resizing -->
+  <main style="padding: 2rem; max-width: 1200px; margin: 0 auto;">
+    <h1>Welcome to Cotton University</h1>
+    <p>Click <strong>A-</strong>, <strong>A</strong>, or <strong>A+</strong> in the top bar to dynamically adjust the page text size.</p>
+  </main>
+
+  <script src="header1_script.js"></script>
+</body>
+</html>
