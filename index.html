@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of Nowgong Polytechnic, Nagaon, Assam.">
+  <title>Nowgong Polytechnic | Government of Assam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top utility strip -->
+  <div class="utility-bar">
+    <div class="container utility-inner">
+      <div class="utility-links">
+        <a href="#notices">Notices</a><span>|</span>
+        <a href="#results">Results</a><span>|</span>
+        <a href="#admission">Admissions</a><span>|</span>
+        <a href="#academics">Academics</a><span>|</span>
+        <a href="#aicte">AICTE</a><span>|</span>
+        <a href="#scte">SCTE Assam</a>
+      </div>
+      <div class="accessibility">
+        <button type="button" id="assameseBtn" aria-label="Assamese language">অসমীয়া</button>
+        <button type="button" class="font-btn" data-font="down" aria-label="Decrease font size">A-</button>
+        <button type="button" class="font-btn" data-font="reset" aria-label="Reset font size">A</button>
+        <button type="button" class="font-btn" data-font="up" aria-label="Increase font size">A+</button>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Institutional identity -->
+  <header class="identity-header">
+    <div class="container identity-inner">
+      <a class="brand" href="#home" aria-label="Nowgong Polytechnic home">
+        <div class="logo-mark" aria-hidden="true">NP</div>
+        <div class="brand-copy">
+          <strong>NOWGONG POLYTECHNIC</strong>
+          <span>Government of Assam</span>
+          <small>Approved by AICTE&nbsp; | &nbsp;Affiliated to SCTE, Assam</small>
+        </div>
+      </a>
+      <div class="header-details">
+        <div class="detail-item"><span class="detail-icon">⌕</span><div><small>QUICK ACCESS</small><a href="#notices">Latest Notices</a></div></div>
+        <div class="detail-item"><span class="detail-icon">⌖</span><div><small>INSTITUTE LOCATION</small><span>Nagaon, Assam, India</span></div></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main navigation -->
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a class="home-link active" href="#home">Home</a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navMenu">☰ <span>Menu</span></button>
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item has-dropdown">
+          <button class="nav-button" aria-expanded="false">About <span>▾</span></button>
+          <ul class="dropdown">
+            <li><a href="#about">About the Institute</a></li>
+            <li><a href="#principal">Principal's Desk</a></li>
+            <li><a href="#infrastructure">Infrastructure</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown">
+          <button class="nav-button" aria-expanded="false">Academics <span>▾</span></button>
+          <ul class="dropdown">
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#courses">Courses Offered</a></li>
+            <li><a href="#academic-calendar">Academic Calendar</a></li>
+          </ul>
+        </li>
+        <li><a href="#admission">Admission</a></li>
+        <li class="nav-item has-dropdown">
+          <button class="nav-button" aria-expanded="false">Student Life <span>▾</span></button>
+          <ul class="dropdown">
+            <li><a href="#clubs">Clubs & Activities</a></li>
+            <li><a href="#placement">Training & Placement</a></li>
+            <li><a href="#student-support">Student Support</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-dropdown">
+          <button class="nav-button" aria-expanded="false">More <span>▾</span></button>
+          <ul class="dropdown">
+            <li><a href="#notices">Notices & Circulars</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="home">
+    <!-- Hero: add your campus photograph as assets/campus.jpg -->
+    <section class="hero" aria-label="Welcome to Nowgong Polytechnic">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">A Centre for Technical Education in Assam</p>
+        <h1>NOWGONG<br class="desktop-break"> POLYTECHNIC</h1>
+        <p class="hero-subtitle">Government of Assam <span>|</span> Approved by AICTE <span>|</span> Affiliated to SCTE, Assam</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">Explore Institute</a>
+          <a class="button button-outline" href="#admission">Admission Information</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#welcome">Discover More ↓</a>
+    </section>
+
+    <!-- Notice ticker -->
+    <section class="notice-strip" id="notices">
+      <div class="container notice-inner">
+        <strong>NOTICE BOARD</strong>
+        <div class="ticker-window"><div class="ticker-text">
+          <a href="#notices">Welcome to the official website of Nowgong Polytechnic.</a>
+          <span>◆</span><a href="#admission">Admission-related updates will be published here.</a>
+          <span>◆</span><a href="#results">Examination notices and results will be updated here.</a>
+        </div></div>
+        <a class="all-notices" href="#notices-list">All Notices →</a>
+      </div>
+    </section>
+
+    <!-- Welcome and quick links -->
+    <section class="section welcome-section" id="welcome">
+      <div class="container welcome-grid">
+        <div class="welcome-photo">
+          <div class="photo-placeholder"><span>NOWGONG POLYTECHNIC</span><small>Add your campus photograph: assets/campus.jpg</small></div>
+        </div>
+        <div class="welcome-copy" id="about">
+          <p class="section-kicker">WELCOME TO OUR INSTITUTE</p>
+          <h2>Building Skills.<br>Shaping the Future.</h2>
+          <p>Nowgong Polytechnic, located in Nagaon, Assam, is committed to technical education, practical learning and the development of skilled professionals.</p>
+          <p>Explore our academic programmes, departments, student activities and institutional updates through this website.</p>
+          <a class="text-link" href="#departments">Know More About Us →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quick-section" id="academics">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">EXPLORE NOWGONG POLYTECHNIC</p>
+          <h2>Useful Information</h2>
+        </div>
+        <div class="quick-grid">
+          <a class="quick-card" href="#admission"><span class="card-icon">▣</span><h3>Admissions</h3><p>Admission information, eligibility and important updates.</p><span class="card-arrow">Explore →</span></a>
+          <a class="quick-card" href="#departments"><span class="card-icon">⌘</span><h3>Departments</h3><p>Explore departments, programmes and academic resources.</p><span class="card-arrow">Explore →</span></a>
+          <a class="quick-card" href="#notices-list"><span class="card-icon">▤</span><h3>Notices</h3><p>Official notices, circulars and announcements.</p><span class="card-arrow">Explore →</span></a>
+          <a class="quick-card" href="#placement"><span class="card-icon">◇</span><h3>Training & Placement</h3><p>Industry interaction, training and placement activities.</p><span class="card-arrow">Explore →</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section info-section" id="departments">
+      <div class="container info-grid">
+        <div><p class="section-kicker">ACADEMIC LIFE</p><h2>Learning through<br>Knowledge and Practice</h2><p>Find information about academic departments, laboratories, courses and student development activities.</p><a class="button button-primary" href="#courses">View Academics</a></div>
+        <div class="info-panel"><h3>Quick Links</h3><a href="#academic-calendar">Academic Calendar <span>→</span></a><a href="#results">Examination & Results <span>→</span></a><a href="#downloads">Downloads <span>→</span></a><a href="#student-support">Student Support <span>→</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div><h2>NOWGONG POLYTECHNIC</h2><p>Government of Assam<br>Nagaon, Assam, India</p></div>
+      <div><h3>Explore</h3><a href="#about">About</a><a href="#academics">Academics</a><a href="#admission">Admission</a></div>
+      <div><h3>Information</h3><a href="#notices">Notices</a><a href="#results">Results</a><a href="#placement">Training & Placement</a></div>
+      <div><h3>Contact</h3><p>For official enquiries, contact the institute office.</p></div>
+    </div>
+    <div class="footer-bottom"><div class="container">© <span id="year"></span> Nowgong Polytechnic. All rights reserved.</div></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
